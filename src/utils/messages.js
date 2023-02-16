@@ -1,4 +1,5 @@
-const generateMsg = (msg)=>({
+const generateMsg = (username,msg)=>({
+    username,
     msg,
     createdAt: new Date().getTime()
 })
